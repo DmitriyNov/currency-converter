@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #575353;
+  color: #ececec;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 300px;
+}
+
+.header__title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.header__switch_link {
+  cursor: pointer;
+}
+
+.widget {
+  margin: 50px 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.converter {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.converter__from, .converter__to {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.converter__icon {
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  font-size: 50px;
+}
+
+.converter__from-input, .converter__to-input {
+  width: 300px;
+  padding: 20px 15px;
+  font-size: 24px;
+}
+
+.converter__to-input:focus {
+  outline: none;
+}
+
+.converter__from-select, .converter__to-select {
+  width: 80px;
+  font-size: 18px;
+}
+
+.converter__from-option, .converter__to-option {
+
+}
+
+.converter__from-option_selected .converter__to-option_selected {
+  font-weight: 700;
+}
+
+.exchange_rate {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.exchange_rate__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.exchange_rate__list {
+  width: 300px;
+  columns: 2;
+  column-gap: 80px;
+}
+
+.exchange_rate__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.exchange_rate__item > span:first-child {
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
